@@ -17,7 +17,7 @@ describe('Pruba de arreglos', () => {
 
     });
 
-    it('Debe de existir Megaman y Robocop', () => {
+    xit('Debe de existir Megaman y Robocop', () => {
 
         const resp = obtenerRobots();
         expect( resp ).toContain('Megaman');
